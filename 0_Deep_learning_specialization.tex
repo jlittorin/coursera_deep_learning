@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt,hidelinks]{book} 
+
+\usepackage[hmargin=1in, vmargin=1in]{geometry}
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{amsthm, amssymb}
+
+\usepackage[fleqn]{amsmath}
+\setlength{\mathindent}{1cm}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\newcommand{\BlockComment}[1]{\vspace{1em}\Statex \textbf{#1}}
+
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{parskip}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+
+%\includeonly{2_Improving_deep_neural_networks_3.tex}
+
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\tableofcontents
+
+\part{Neural Networks and Deep Learning}
+\include{1_Neural_networks_and_deep_learning.tex}
+
+\part{Improving Deep Neural Networks}
+\include{2_Improving_deep_neural_networks_1.tex}
+\include{2_Improving_deep_neural_networks_2.tex}
+\include{2_Improving_deep_neural_networks_3.tex}
+
+\end{document}
